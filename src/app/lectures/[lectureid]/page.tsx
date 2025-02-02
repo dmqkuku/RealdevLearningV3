@@ -33,7 +33,7 @@ Suspendisse placerat est eros, at volutpat velit lobortis condimentum. Sed luctu
                 <hr/>
             </div>
             <div className="container mx-auto">
-                <div className="my-2 border border-solid rounded border-gray-600">
+                <div className="my-2 border border-solid rounded-sm border-gray-600">
                     <div>
                         <img src={`/test.png`}></img>
                     </div>
@@ -93,7 +93,7 @@ Suspendisse placerat est eros, at volutpat velit lobortis condimentum. Sed luctu
                                 
                                 <div className="grid grid-cols-5 mt-4">
                                     <div className="col-span-4 flex justify-end items-center pr-4">Total</div>
-                                    <div className="flex justify-center border border-solid border-gray-600 rounded p-2">30,000</div>
+                                    <div className="flex justify-center border border-solid border-gray-600 rounded-sm p-2">30,000</div>
                                 </div>
 
                                 <div className="flex mt-4">

@@ -37,7 +37,7 @@ export default function Page() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-4">
                     <Link href={`/community/1`}>
-                        <div className="h-24 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-xl">
+                        <div className="h-24 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-xl">
                             <div className="flex">
                                 <span title={`Sql Programming Basic (PDF)에 대한 질문입니다.`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">
                                     Sql Programming Basic (PDF)에 대한 질문입니다.
@@ -50,7 +50,7 @@ export default function Page() {
                         </div>
                     </Link>
                     <Link href={`/books/1`}>
-                        <div className="h-24 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-xl">
+                        <div className="h-24 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-xl">
                             <div className="flex">
                                 <span title={`Sql Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">
                                     Sql Programming Basic (PDF)에 대한 논점입니다.
@@ -66,7 +66,7 @@ export default function Page() {
                         Array.from({length : 11}).map((_, index) => {
                            return (
                             <Link href={`/books/1`} key={index}>
-                                <div className="h-24 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-xl">
+                                <div className="h-24 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-xl">
                                     <div className="flex">
                                         <span title={`Sql Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">
                                             Sql Programming Basic (PDF)에 대한 논점입니다.

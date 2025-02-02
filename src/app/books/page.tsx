@@ -40,7 +40,7 @@ export default function Page() {
                         (tag === 0 || tag === 1) &&
                         <>
                             <Link href={`/books/1`}>
-                                <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-inner hover:shadow-purple-300">
+                                <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-inner hover:shadow-purple-300">
                                     <img src={`/test.png`}></img>
                                     <div className="flex">
                                         <span title={`Java Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Java Programming Basic (PDF)</span>
@@ -56,7 +56,7 @@ export default function Page() {
                                 </div>
                             </Link>
                             <Link href={`/books/1`}>
-                                <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-xl">
+                                <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-xl">
                                     <img src={`/test.png`}></img>
                                     <div className="flex">
                                         <span title={`Javascript Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Javascript Programming Basic (PDF)</span>
@@ -72,7 +72,7 @@ export default function Page() {
                                 </div>
                             </Link>
                             <Link href={`/books/1`}>
-                                <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-xl">
+                                <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-xl">
                                     <img src={`/test.png`}></img>
                                     <div className="flex">
                                         <span title={`Sql Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Sql Programming Basic (PDF)</span>
@@ -88,7 +88,7 @@ export default function Page() {
                                 </div>
                             </Link>
                             <Link href={`/books/1`}>
-                                <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-xl">
+                                <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-xl">
                                     <img src={`/test.png`}></img>
                                     <div className="flex">
                                         <span title={`Html Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Html Programming Basic (PDF)</span>
@@ -109,7 +109,7 @@ export default function Page() {
                         (tag === 0 || tag === 2) && 
                         <>
                         <Link href={`/books/1`}>
-                            <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2 hover:shadow-xl">
+                            <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2 hover:shadow-xl">
                                 <img src={`/test.png`}></img>
                                 <div className="flex">
                                     <span title={`Css Programming Basic (종이책)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Css Programming Basic (종이책)</span>

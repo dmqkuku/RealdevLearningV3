@@ -159,7 +159,7 @@ Suspendisse placerat est eros, at volutpat velit lobortis condimentum. Sed luctu
                 <hr/>
             </div>
             <div className="container mx-auto">
-                <div className="my-2 border border-solid rounded border-gray-600">
+                <div className="my-2 border border-solid rounded-sm border-gray-600">
                     <div>
                         <img src={`/test.png`}></img>
                     </div>

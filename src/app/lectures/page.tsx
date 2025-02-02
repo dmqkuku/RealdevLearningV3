@@ -21,7 +21,7 @@ export default function Page() {
             <div className="container mx-auto">
                 <div className="grid grid-cols-4 mr-2">
                     <Link href={`/lectures/1`}>
-                        <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2">
+                        <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2">
                             <img src={`/test.png`}></img>
                             <div className="flex">
                                 <span title={`Java Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Java Programming Basic</span>
@@ -37,7 +37,7 @@ export default function Page() {
                         </div>
                     </Link>
                     <Link href={`/lectures/1`}>
-                        <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2">
+                        <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2">
                             <img src={`/test.png`}></img>
                             <div className="flex">
                                 <span title={`Javascript Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Javascript Programming Basic</span>
@@ -53,7 +53,7 @@ export default function Page() {
                         </div>
                     </Link>
                     <Link href={`/lectures/1`}>
-                        <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2">
+                        <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2">
                             <img src={`/test.png`}></img>
                             <div className="flex">
                                 <span title={`Sql Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Sql Programming Basic</span>
@@ -69,7 +69,7 @@ export default function Page() {
                         </div>
                     </Link>
                     <Link href={`/lectures/1`}>
-                        <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2">
+                        <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2">
                             <img src={`/test.png`}></img>
                             <div className="flex">
                                 <span title={`Html Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Html Programming Basic </span>
@@ -85,7 +85,7 @@ export default function Page() {
                         </div>
                     </Link>
                     <Link href={`/lectures/1`}>
-                        <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2">
+                        <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2">
                             <img src={`/test.png`}></img>
                             <div className="flex">
                                 <span title={`Css Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Css Programming Basic</span>
@@ -101,7 +101,7 @@ export default function Page() {
                         </div>
                     </Link>
                     <Link href={`/lectures/free/vod`}>
-                        <div className="h-96 border border-solid rounded border-gray-900 ml-2 mt-2">
+                        <div className="h-96 border border-solid rounded-sm border-gray-900 ml-2 mt-2">
                             <img src={`/test.png`}></img>
                             <div className="flex">
                                 <span title={`Css Programming Basic (PDF)`} className="p-2 text-xl font-bold overflow-hidden text-ellipsis w-11/12 whitespace-nowrap">Css Programming Basic</span>
