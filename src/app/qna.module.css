@@ -1,4 +1,5 @@
-.accordion { 
+
+.container {
     display: grid;
     grid-template-rows: 0fr;
     transition: grid-template-rows 1s ease-in-out;
@@ -8,11 +9,5 @@
 }
 .active {
     grid-template-rows: 1fr;
-}
-
-.scrollbar {
-    scrollbar-width : none;
-}
-.scrollbar::-webkit-scrollbar {
-    display: none;
+    color : black;
 }

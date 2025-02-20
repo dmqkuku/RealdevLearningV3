@@ -9,3 +9,5 @@
 - h1, h2 태그에 id를 넣는 방법을 찾음. https://velog.io/@ssoon-m/블로그-목차TOC-만들기-with-contentlayer-rehype
 
 - 상위 컴포넌트는 서버 컴포넌트로 유지하고, 가급적 말단에 위치한 컴포넌트를 클라이언트로 사용할 것.
+
+- https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/

@@ -11,23 +11,27 @@
 
 input[type="range" i].slider {
     color : white;
+    -webkit-appearance: none;
+    background: transparent;
 }
 
 .slider-container > .slider {
     color : white;
     width: 100%;
     height: 8px;
-    background: #ddd;
     border : solid gray 1px;
     border-radius: 0;
     outline: none;
     opacity: 0.9;
     transition: opacity 0.2s ease;
-    accent-color: var(--slider-before-cursor-color);
+    /* accent-color: var(--slider-before-cursor-color); */
 }
 
 .slider-container > .slider:hover {
     opacity: 1;
+}
+.slider-container > .slider:focus {
+    outline: none;
 }
 /*
 -webkit-appearance: none;
@@ -35,12 +39,22 @@ input[type="range" i].slider {
 */
 
 .slider-container > .slider::-webkit-slider-thumb {
-    width: 20px;
+    -webkit-appearance: none;
+
+    border : 1px solid #000000;
+    height: 20px;
+    width : 16px;
+    border-radius: 3px;
+    background: #fff;
+    cursor : pointer;
+    margin-top: -3px;
+    box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d;
+    /* width: 20px;
     height: 20px;
     background: var(--slider-cursor-color);
     cursor: default;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: background 0.2s ease;
+    transition: background 0.2s ease; */
 }
 
 .slider-container > .slider::-webkit-slider-thumb:hover {
@@ -48,16 +62,41 @@ input[type="range" i].slider {
 }
 
 .slider-container > .slider::-moz-range-thumb {
-    width: 20px;
+    box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d;
+    border : 1px solid #000;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+    /* width: 20px;
     height: 20px;
     background: var(--slider-cursor-color);
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: background 0.2s ease;
+    transition: background 0.2s ease; */
 }
 
 .slider-container > .slider::-moz-range-thumb:hover {
     background: var(--slider-cursor-hover-color);
+}
+.slider-container > .slider::-ms-track {
+    /* width: 100%; */
+    cursor : pointer;
+
+    background: transparent;
+    border-color: transparent;
+    color : transparent;
+}
+
+.slider-container > .slider::-ms-thumb {
+    box-shadow: 1px 1px 1px #000, 0px 0px 1px #0d0d0d;
+    border : 1px solid #000;
+    height : 36px;
+    width : 16px;
+    border-radius: 3px;
+    background: #fff;
+    cursor : pointer;
 }
 
 /* chrome */

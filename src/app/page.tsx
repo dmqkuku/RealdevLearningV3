@@ -28,10 +28,10 @@ export default function Home() {
                     <span className={`border-purple-600 rounded-xl border-solid border p-1 m-1 text-purple-700 ${tag === 2 ? tagStyle.active : ''}`}
                       onClick={() => toggleTag(2)}
                     >전자책</span>
-                    <span className={`border-purple-600 rounded-xl border-solid border p-1 m-1 text-purple-700 ${tag === 2 ? tagStyle.active : ''}`}
+                    <span className={`border-purple-600 rounded-xl border-solid border p-1 m-1 text-purple-700 ${tag === 3 ? tagStyle.active : ''}`}
                       onClick={() => toggleTag(3)}
                     >종이책</span>
-                    <span className={`border-purple-600 rounded-xl border-solid border p-1 m-1 text-purple-700 ${tag === 3 ? tagStyle.active : ''}`}
+                    <span className={`border-purple-600 rounded-xl border-solid border p-1 m-1 text-purple-700 ${tag === 4 ? tagStyle.active : ''}`}
                       onClick={() => toggleTag(4)}
                     >Blogs</span>
                 </div>
